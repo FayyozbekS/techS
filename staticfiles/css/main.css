@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@400&display=swap');
+body {
+	background-color: #f9f9f9;
+	font-family: "Raleway";
+	font-weight: 300;
+	font-size: 16px;
+	color: #000;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #000;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.center{
+	text-align: center;
+}
+a {
+	padding-left: 30px;
+	color: #f85c37;
+}
+a:hover,a:focus{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+hr{
+	display: block;
+	height: 1px;
+	border: 0
+	border-top:1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar{
+	font-weight: 600;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse {
+	height: 175px;
+	background-color:#3d3d3d;
+	border-color: #2d2d2d;
+}
+.navbar-inverse .navbar-nav >.active > a{
+	background-color: #595;
+}
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bold;
+	font-size: 42px;
+	letter-spacing: 1px;
+}
+#headerwrap {
+	background-color: #2a2a2a;
+	background-image: url("../img/bg.jpg");
+	margin-top: -10px;
+	padding-top: 25px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center;
+	min-height: 500px;
+	width: 100%;
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	border-size:cover;
+}
+#headerwrap h1 {
+	margin-top: 200px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+#headerwrap h2 {
+	color:white;
+	font-size:40px;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+}
+.w {
+	padding-top: 35px;
+	background-color: #e9e9e9;
+}
+.w h4 {
+	font-size: 25px;
+	color: #3d3d3d;
+	font-style: bold;
+}
+.w p{
+	color: #2a2a2a;
+}
+
+#dg{
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+#dg h4 {
+	font-size: 40px;
+}
+
+.tilt{
+	-webkit-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.tilt:hover{
+	-webkit-transition:rotate(-10deg);
+	-moz-transition:rotate(-10deg);
+	-ms-transition:rotate(-10deg);
+	-o-transition:rotate(-10deg);
+	transition:rotate(-10deg);
+
+}
