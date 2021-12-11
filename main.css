@@ -11,6 +11,7 @@
 }
 .login-h1 {
     font-weight: 100;
+    color: white;
     font-size: 1.8em;
   font-weight: 100;
     text-align: center;
@@ -18,11 +19,13 @@
     margin-bottom: 30px;
 }
 .form-input {
+    border-radius: 15px;
+  padding: 20px;
   width:40%;
   margin-bottom: 10px;
     font-size: 0.85em;
     font-weight: 100;
-    border-radius: 0px !important;
+    border-radius: 15px !important;
     padding: 10px 20px;
 }
 input, textarea, button, button:focus {
@@ -63,4 +66,8 @@ input, textarea, button, button:focus {
     color: white;
     padding: 10px 30px;
     cursor: pointer;
+}
+.r {
+    border-radius: 15px;
+  padding: 20px;
 }

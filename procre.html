@@ -40,13 +40,27 @@
                     <input type="height" placeholder="Height" required class=" form-input">
                 </div>
                 <div class="form-group">
-                    <input type="body_type" placeholder="Body type" required class=" form-input">
+                    <input list="body" name="body" placeholder="Body type" required class=" form-input">
+  <datalist id="body">
+    <option value="Type A">
+    <option value="Type B">
+  </datalist>
+  
+                    
                 </div>
                 <div class="form-group">
-                    <input type="eyecolor" placeholder="Eye colour" required class=" form-input">
+                    <input type="eyecolor" list="eye" placeholder="Eye colour" required class=" form-input">
+                    <datalist id="eye">
+    <option value="Type A">
+    <option value="Type B">
+  </datalist>
                 </div>
                 <div class="form-group">
-                    <input type="Skincolor" placeholder="Skin colour" required class=" form-input">
+                    <input type="Skincolor" list="skins" placeholder="Skin colour" required class=" form-input">
+                             <datalist id="skins">
+    <option value="Type A">
+    <option value="Type B">
+  </datalist>
                 </div>
                 <div class="form-group">
                     <input type="religion" placeholder="Religion" required class=" form-input">
