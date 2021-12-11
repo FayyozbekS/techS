@@ -93,6 +93,7 @@ hr{
 	text-transform:uppercase;
 }
 .w {
+	text-align: center;
 	padding-top: 35px;
 	background-color: #e9e9e9;
 }
