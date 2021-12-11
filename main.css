@@ -58,7 +58,7 @@ input, textarea, button, button:focus {
 .form-submit {
    border-radius: 15px;
   padding: 20px;
-  
+  width: 20%;
     background-color: green;
     border: none;
     font-weight: 100;
